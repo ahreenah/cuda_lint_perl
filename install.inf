@@ -3,4 +3,4 @@ title=Linter for Perl, using 'perl -c'
 desc=Linter for CudaLint, adds support for Perl lexer, using 'Perl-c'
 type=cudatext-plugin
 subdir=cuda_lint_perl
-homepage=https://github.com/TomBraider42/cuda_lint_gcc
+homepage=https://github.com/medvosa/cuda_lint_perl
