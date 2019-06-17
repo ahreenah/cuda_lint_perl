@@ -1,4 +1,4 @@
-"""This module exports the Gcc plugin class."""
+"""This module exports the Perl -c util."""
 
 from cuda_lint import Linter, util
 from cudatext import * 
