@@ -1,12 +1,12 @@
 Linter for CudaLint plugin.
-It adds support for C/C++ lexer.
-It uses "gcc".
+It adds support for Perl lexer.
+It uses "perl".
 
-'gcc' must be in your system PATH.
+'perl' must be in your system PATH.
 
-Author: Tom Braider
+Author: Medvosa
 
-Uses code from https://github.com/jfcherng/SublimeLinter-contrib-gcc
-Author: Jack Cherng
+Uses code from https://packagecontrol.io/packages/SublimeLinter-contrib-perl
+Author: oschwald
 
 License: MIT
