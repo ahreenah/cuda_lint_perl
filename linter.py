@@ -1,7 +1,6 @@
 """This module exports the Perl -c util."""
 
 from cuda_lint import Linter, util
-from cudatext import * 
 
 
 class Perl(Linter):
@@ -21,8 +20,6 @@ class Perl(Linter):
 
 
     def split_match(self, match):
-        print('plit_match')
-        print(match)
    
         """Return the components of the error."""
         split_match = super(Perl, self).split_match(match)
@@ -33,7 +30,6 @@ class Perl(Linter):
 
 
     def cmd(self):
-        print('cmd')
         """Return the command line to execute."""
         result = self.executable + ' ' + self.base_cmd
 
