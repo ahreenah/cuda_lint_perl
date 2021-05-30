@@ -11,12 +11,12 @@ class Perl(Linter):
     multiline = False
     syntax = ('Perl')
     regex = (
-        r'(?P<stdin>.*)line (?P<line>\d+),(?P<message>.*)'
+        r'(?P<message>.*?) at .*? line (?P<line>\d+)'
     )
     base_cmd = (
     '-c'
     )
-    tempfile_suffix = 'pl'
+    tempfile_suffix = '.pl'
 
 
     def split_match(self, match):
